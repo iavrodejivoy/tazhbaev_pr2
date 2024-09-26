@@ -1,0 +1,17 @@
+﻿<Window x:Class="tazhbaev_pr2.Pages._1page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tazhbaev_pr2.Pages"
+        mc:Ignorable="d"
+        Title="Первое задание" Height="178" Width="464">
+    <Grid Margin="0,0,10,10">
+        <Label Content="Дано целое четырехзначное число. Найти сумму и произведение его цифр" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="inputChislo" HorizontalAlignment="Left" Margin="10,41,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="calculateButton" Content="Вычислить" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Click="calculateButton_Click"/>
+        <TextBox x:Name="outputSumm" HorizontalAlignment="Left" Margin="10,89,0,0" TextWrapping="Wrap" Text="Сумма цифр числа" VerticalAlignment="Top" Width="163"/>
+        <TextBox x:Name="outputProizvedenie" HorizontalAlignment="Left" Margin="10,112,0,0" TextWrapping="Wrap" Text="Произведение цифр числа" VerticalAlignment="Top" Width="163"/>
+
+    </Grid>
+</Window>
